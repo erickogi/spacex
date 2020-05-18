@@ -3,19 +3,77 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842C90E824728FF70036C163 /* SpaceXResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C90E424728FF60036C163 /* SpaceXResponse.swift */; };
+		842C90E924728FF70036C163 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C90E524728FF60036C163 /* Result.swift */; };
+		842C90EA24728FF70036C163 /* HttpConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C90E624728FF60036C163 /* HttpConfiguration.swift */; };
+		842C90EB24728FF70036C163 /* CoreAPIUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C90E724728FF70036C163 /* CoreAPIUrl.swift */; };
+		842C90F0247290C60036C163 /* SpaceXNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C90EC247290C60036C163 /* SpaceXNumber.swift */; };
+		842C90F1247290C60036C163 /* SpaceXDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C90ED247290C60036C163 /* SpaceXDate.swift */; };
+		842C90F4247292410036C163 /* CoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C90F3247292410036C163 /* CoreError.swift */; };
+		842C90F92472ACF80036C163 /* Next.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C90F82472ACF80036C163 /* Next.swift */; };
+		842C90FC2472B1A30036C163 /* LaunchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C90FB2472B1A30036C163 /* LaunchService.swift */; };
+		842C90FE2472B61C0036C163 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C90FD2472B61C0036C163 /* MainViewModel.swift */; };
+		842C91002472BC6C0036C163 /* ViewControllerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C90FF2472BC6C0036C163 /* ViewControllerModel.swift */; };
+		842C91042472BCD40036C163 /* CustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842C91022472BCD30036C163 /* CustomAlertView.xib */; };
+		842C91052472BCD40036C163 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C91032472BCD40036C163 /* CustomAlertView.swift */; };
+		842C91072472BD470036C163 /* LoadingStateDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C91062472BD470036C163 /* LoadingStateDisplayer.swift */; };
+		842C910A2472C0360036C163 /* UIView+xib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C91092472C0360036C163 /* UIView+xib.swift */; };
+		842C91102472C1420036C163 /* UIStackView+Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C910B2472C1410036C163 /* UIStackView+Spacer.swift */; };
+		842C91112472C1420036C163 /* UILabel+LineHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C910C2472C1410036C163 /* UILabel+LineHeight.swift */; };
+		842C91132472C1420036C163 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C910E2472C1420036C163 /* UIView+AutoLayout.swift */; };
+		842C91142472C1420036C163 /* UILabel+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C910F2472C1420036C163 /* UILabel+Style.swift */; };
+		842C911E2472C1FD0036C163 /* NegativeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C91162472C1FB0036C163 /* NegativeButton.swift */; };
+		842C911F2472C1FD0036C163 /* PillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C91172472C1FB0036C163 /* PillButton.swift */; };
+		842C91202472C1FD0036C163 /* PositiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C91182472C1FB0036C163 /* PositiveButton.swift */; };
+		842C91212472C1FD0036C163 /* AlertMessageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C91192472C1FC0036C163 /* AlertMessageButton.swift */; };
+		842C91222472C1FD0036C163 /* NeutralButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C911A2472C1FC0036C163 /* NeutralButton.swift */; };
+		842C91232472C1FD0036C163 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C911B2472C1FC0036C163 /* DefaultButton.swift */; };
+		842C91242472C1FD0036C163 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C911C2472C1FC0036C163 /* BaseButton.swift */; };
+		842C91252472C1FD0036C163 /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C911D2472C1FD0036C163 /* ClearButton.swift */; };
 		84B2E22824726D0700165EEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2E22724726D0700165EEE /* AppDelegate.swift */; };
 		84B2E22A24726D0700165EEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2E22924726D0700165EEE /* SceneDelegate.swift */; };
 		84B2E22C24726D0700165EEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2E22B24726D0700165EEE /* ViewController.swift */; };
 		84B2E22F24726D0700165EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B2E22D24726D0700165EEE /* Main.storyboard */; };
 		84B2E23124726D0F00165EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B2E23024726D0F00165EEE /* Assets.xcassets */; };
 		84B2E23424726D0F00165EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B2E23224726D0F00165EEE /* LaunchScreen.storyboard */; };
+		F5A0D4FBC9FBAB6BED06A591 /* Pods_SpaceX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6758DDD9E52263DE3D42B93 /* Pods_SpaceX.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C9207039CB7B4C4C8AAA1E2 /* Pods-SpaceX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX.release.xcconfig"; path = "Target Support Files/Pods-SpaceX/Pods-SpaceX.release.xcconfig"; sourceTree = "<group>"; };
+		842C90E324728FF60036C163 /* SpaceXService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceXService.h; sourceTree = "<group>"; };
+		842C90E424728FF60036C163 /* SpaceXResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceXResponse.swift; sourceTree = "<group>"; };
+		842C90E524728FF60036C163 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		842C90E624728FF60036C163 /* HttpConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpConfiguration.swift; sourceTree = "<group>"; };
+		842C90E724728FF70036C163 /* CoreAPIUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreAPIUrl.swift; sourceTree = "<group>"; };
+		842C90EC247290C60036C163 /* SpaceXNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceXNumber.swift; sourceTree = "<group>"; };
+		842C90ED247290C60036C163 /* SpaceXDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceXDate.swift; sourceTree = "<group>"; };
+		842C90EE247290C60036C163 /* SpaceXModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceXModel.h; sourceTree = "<group>"; };
+		842C90F3247292410036C163 /* CoreError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreError.swift; sourceTree = "<group>"; };
+		842C90F82472ACF80036C163 /* Next.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Next.swift; sourceTree = "<group>"; };
+		842C90FB2472B1A30036C163 /* LaunchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchService.swift; sourceTree = "<group>"; };
+		842C90FD2472B61C0036C163 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		842C90FF2472BC6C0036C163 /* ViewControllerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerModel.swift; sourceTree = "<group>"; };
+		842C91022472BCD30036C163 /* CustomAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAlertView.xib; sourceTree = "<group>"; };
+		842C91032472BCD40036C163 /* CustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		842C91062472BD470036C163 /* LoadingStateDisplayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingStateDisplayer.swift; sourceTree = "<group>"; };
+		842C91092472C0360036C163 /* UIView+xib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+xib.swift"; sourceTree = "<group>"; };
+		842C910B2472C1410036C163 /* UIStackView+Spacer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Spacer.swift"; sourceTree = "<group>"; };
+		842C910C2472C1410036C163 /* UILabel+LineHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+LineHeight.swift"; sourceTree = "<group>"; };
+		842C910E2472C1420036C163 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		842C910F2472C1420036C163 /* UILabel+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Style.swift"; sourceTree = "<group>"; };
+		842C91162472C1FB0036C163 /* NegativeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeButton.swift; sourceTree = "<group>"; };
+		842C91172472C1FB0036C163 /* PillButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PillButton.swift; sourceTree = "<group>"; };
+		842C91182472C1FB0036C163 /* PositiveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveButton.swift; sourceTree = "<group>"; };
+		842C91192472C1FC0036C163 /* AlertMessageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessageButton.swift; sourceTree = "<group>"; };
+		842C911A2472C1FC0036C163 /* NeutralButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeutralButton.swift; sourceTree = "<group>"; };
+		842C911B2472C1FC0036C163 /* DefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
+		842C911C2472C1FC0036C163 /* BaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		842C911D2472C1FD0036C163 /* ClearButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
 		84B2E22424726D0700165EEE /* SpaceX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B2E22724726D0700165EEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B2E22924726D0700165EEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +82,8 @@
 		84B2E23024726D0F00165EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B2E23324726D0F00165EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B2E23524726D0F00165EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6758DDD9E52263DE3D42B93 /* Pods_SpaceX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C0782D8C26BC94B9C83F80 /* Pods-SpaceX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceX.debug.xcconfig"; path = "Target Support Files/Pods-SpaceX/Pods-SpaceX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +91,91 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A0D4FBC9FBAB6BED06A591 /* Pods_SpaceX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		842C90E224728FDD0036C163 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				842C90FA2472B1800036C163 /* LaunchService */,
+				842C90F3247292410036C163 /* CoreError.swift */,
+				842C90ED247290C60036C163 /* SpaceXDate.swift */,
+				842C90EE247290C60036C163 /* SpaceXModel.h */,
+				842C90EC247290C60036C163 /* SpaceXNumber.swift */,
+				842C90E724728FF70036C163 /* CoreAPIUrl.swift */,
+				842C90E624728FF60036C163 /* HttpConfiguration.swift */,
+				842C90E424728FF60036C163 /* SpaceXResponse.swift */,
+				842C90E324728FF60036C163 /* SpaceXService.h */,
+				842C90E524728FF60036C163 /* Result.swift */,
+				842C90FD2472B61C0036C163 /* MainViewModel.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		842C90F72472ACE00036C163 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				842C90F82472ACF80036C163 /* Next.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		842C90FA2472B1800036C163 /* LaunchService */ = {
+			isa = PBXGroup;
+			children = (
+				842C90FB2472B1A30036C163 /* LaunchService.swift */,
+			);
+			path = LaunchService;
+			sourceTree = "<group>";
+		};
+		842C91012472BCB10036C163 /* CustomAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				842C91032472BCD40036C163 /* CustomAlertView.swift */,
+				842C91022472BCD30036C163 /* CustomAlertView.xib */,
+			);
+			path = CustomAlertView;
+			sourceTree = "<group>";
+		};
+		842C91082472C0240036C163 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				842C91062472BD470036C163 /* LoadingStateDisplayer.swift */,
+				842C910C2472C1410036C163 /* UILabel+LineHeight.swift */,
+				842C910F2472C1420036C163 /* UILabel+Style.swift */,
+				842C910B2472C1410036C163 /* UIStackView+Spacer.swift */,
+				842C910E2472C1420036C163 /* UIView+AutoLayout.swift */,
+				842C91092472C0360036C163 /* UIView+xib.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		842C91152472C1EA0036C163 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				842C91192472C1FC0036C163 /* AlertMessageButton.swift */,
+				842C911C2472C1FC0036C163 /* BaseButton.swift */,
+				842C911D2472C1FD0036C163 /* ClearButton.swift */,
+				842C911B2472C1FC0036C163 /* DefaultButton.swift */,
+				842C91162472C1FB0036C163 /* NegativeButton.swift */,
+				842C911A2472C1FC0036C163 /* NeutralButton.swift */,
+				842C91172472C1FB0036C163 /* PillButton.swift */,
+				842C91182472C1FB0036C163 /* PositiveButton.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
 		84B2E21B24726D0700165EEE = {
 			isa = PBXGroup;
 			children = (
 				84B2E22624726D0700165EEE /* SpaceX */,
 				84B2E22524726D0700165EEE /* Products */,
+				A45163A77DC274E238F68429 /* Pods */,
+				DAF0AF4A5800EAA4A8E0200C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +190,12 @@
 		84B2E22624726D0700165EEE /* SpaceX */ = {
 			isa = PBXGroup;
 			children = (
+				842C91152472C1EA0036C163 /* CommonViews */,
+				842C91082472C0240036C163 /* Extensions */,
+				842C91012472BCB10036C163 /* CustomAlertView */,
+				842C90FF2472BC6C0036C163 /* ViewControllerModel.swift */,
+				842C90F72472ACE00036C163 /* Responses */,
+				842C90E224728FDD0036C163 /* Service */,
 				84B2E22724726D0700165EEE /* AppDelegate.swift */,
 				84B2E22924726D0700165EEE /* SceneDelegate.swift */,
 				84B2E22B24726D0700165EEE /* ViewController.swift */,
@@ -67,6 +207,23 @@
 			path = SpaceX;
 			sourceTree = "<group>";
 		};
+		A45163A77DC274E238F68429 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6C0782D8C26BC94B9C83F80 /* Pods-SpaceX.debug.xcconfig */,
+				5C9207039CB7B4C4C8AAA1E2 /* Pods-SpaceX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DAF0AF4A5800EAA4A8E0200C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6758DDD9E52263DE3D42B93 /* Pods_SpaceX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84B2E23824726D0F00165EEE /* Build configuration list for PBXNativeTarget "SpaceX" */;
 			buildPhases = (
+				11BB0586C59E8BEDFE6A9FFF /* [CP] Check Pods Manifest.lock */,
 				84B2E22024726D0700165EEE /* Sources */,
 				84B2E22124726D0700165EEE /* Frameworks */,
 				84B2E22224726D0700165EEE /* Resources */,
+				F13B60DBFA5B94E250089706 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +286,89 @@
 			files = (
 				84B2E23424726D0F00165EEE /* LaunchScreen.storyboard in Resources */,
 				84B2E23124726D0F00165EEE /* Assets.xcassets in Resources */,
+				842C91042472BCD40036C163 /* CustomAlertView.xib in Resources */,
 				84B2E22F24726D0700165EEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11BB0586C59E8BEDFE6A9FFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13B60DBFA5B94E250089706 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX/Pods-SpaceX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpaceX/Pods-SpaceX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpaceX/Pods-SpaceX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84B2E22024726D0700165EEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842C91052472BCD40036C163 /* CustomAlertView.swift in Sources */,
+				842C90F92472ACF80036C163 /* Next.swift in Sources */,
+				842C91072472BD470036C163 /* LoadingStateDisplayer.swift in Sources */,
+				842C90F1247290C60036C163 /* SpaceXDate.swift in Sources */,
+				842C91232472C1FD0036C163 /* DefaultButton.swift in Sources */,
+				842C910A2472C0360036C163 /* UIView+xib.swift in Sources */,
+				842C90FC2472B1A30036C163 /* LaunchService.swift in Sources */,
 				84B2E22C24726D0700165EEE /* ViewController.swift in Sources */,
+				842C90F4247292410036C163 /* CoreError.swift in Sources */,
+				842C90FE2472B61C0036C163 /* MainViewModel.swift in Sources */,
+				842C91242472C1FD0036C163 /* BaseButton.swift in Sources */,
+				842C91132472C1420036C163 /* UIView+AutoLayout.swift in Sources */,
+				842C90E924728FF70036C163 /* Result.swift in Sources */,
+				842C90EA24728FF70036C163 /* HttpConfiguration.swift in Sources */,
+				842C91252472C1FD0036C163 /* ClearButton.swift in Sources */,
+				842C91112472C1420036C163 /* UILabel+LineHeight.swift in Sources */,
+				842C91222472C1FD0036C163 /* NeutralButton.swift in Sources */,
 				84B2E22824726D0700165EEE /* AppDelegate.swift in Sources */,
+				842C91212472C1FD0036C163 /* AlertMessageButton.swift in Sources */,
+				842C90E824728FF70036C163 /* SpaceXResponse.swift in Sources */,
+				842C91002472BC6C0036C163 /* ViewControllerModel.swift in Sources */,
 				84B2E22A24726D0700165EEE /* SceneDelegate.swift in Sources */,
+				842C911F2472C1FD0036C163 /* PillButton.swift in Sources */,
+				842C91102472C1420036C163 /* UIStackView+Spacer.swift in Sources */,
+				842C911E2472C1FD0036C163 /* NegativeButton.swift in Sources */,
+				842C90F0247290C60036C163 /* SpaceXNumber.swift in Sources */,
+				842C91142472C1420036C163 /* UILabel+Style.swift in Sources */,
+				842C91202472C1FD0036C163 /* PositiveButton.swift in Sources */,
+				842C90EB24728FF70036C163 /* CoreAPIUrl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +510,7 @@
 		};
 		84B2E23924726D0F00165EEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C0782D8C26BC94B9C83F80 /* Pods-SpaceX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +529,7 @@
 		};
 		84B2E23A24726D0F00165EEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C9207039CB7B4C4C8AAA1E2 /* Pods-SpaceX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
