@@ -7,14 +7,25 @@
 //
 
 import UIKit
+import AlamofireNetworkActivityLogger
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+      var window: UIWindow?
+       var masterWorkflow: MasterWorkflow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+//        if #available(iOS 13.0, *) {
+//            // In iOS 13 setup is done in SceneDelegate
+//        } else {
+//        masterWorkflow = MasterWorkflow(with: UIWindow())
+//        window = masterWorkflow?.window
+//        }
+        
+        NetworkActivityLogger.shared.level = .debug
+        NetworkActivityLogger.shared.startLogging()
+        
         return true
     }
 

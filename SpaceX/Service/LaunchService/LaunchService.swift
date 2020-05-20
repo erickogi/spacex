@@ -15,16 +15,12 @@ public protocol LaunchService {
 public class LaunchServiceImpl: LaunchService {
 
     public static func next(completion: @escaping (Result<Next>) -> Void) {
-      
+      print("static func next")
         CoreAPIUrl.next.request() { (result: Result<Next>) in
+             print("CoreAPIUrl.next.request")
             completion(result)
         }
 
     }
-
- 
-
-    
-
 }
 

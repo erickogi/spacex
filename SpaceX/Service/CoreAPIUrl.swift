@@ -11,6 +11,7 @@ import Alamofire
 enum CoreAPIUrl: String {
     //Launches
     case next = "launches/next"
+    case nasaImage = "planetary/apod?api_key=DsfBqJtgGmftCRXbSwFx2DVty0X1NKVdSbdgNdnx"
     
     private func dateFormatter() -> DateFormatter? {
       
@@ -21,9 +22,18 @@ enum CoreAPIUrl: String {
     func completeUrl() -> URL {
         return URL(string: self.rawValue, relativeTo: HttpConfiguration.instance.apiUrl())!
     }
-
-    public func request<T: Decodable>(with params: Parameters? = nil, method: HTTPMethod = .post, OTPCode: String? = nil, completion: @escaping (Result<T>) -> Void) {
-        let address = self.completeUrl().absoluteString
+    func completeNasaUrl() -> URL {
+        return URL(string: self.rawValue, relativeTo: HttpConfiguration.instance.nasaUrl())!
+    }
+    
+    public func request<T: Decodable>(isNasa: Bool? = false,with params: Parameters? = nil, method: HTTPMethod = .post, OTPCode: String? = nil, completion: @escaping (Result<T>) -> Void) {
+        var address = self.completeUrl().absoluteString
+        if(isNasa ?? false){
+            address = self.completeNasaUrl().absoluteString
+        }else{
+            
+        }
+        
         let headers = HttpConfiguration.instance.authHeaders(OTPCode)
         let encoding: ParameterEncoding = method == .get ? URLEncoding.default : JSONEncoding.default
 
@@ -32,11 +42,11 @@ enum CoreAPIUrl: String {
 
         manager.request(address, method: method, parameters: params, encoding: encoding, headers: headers).responseData(completionHandler: { r in
            
-            self.handleResponse(r, isOTP: false, completion: completion)
+            self.handleResponse(r, completion: completion)
         })
     }
 
-    public func handleResponse<T: Decodable>(_ response: DataResponse<Data>, isOTP: Bool, completion: @escaping (Result<T>) -> Void) {
+    public func handleResponse<T: Decodable>(_ response: DataResponse<Data>, completion: @escaping (Result<T>) -> Void) {
         guard let data = response.data else {
             let error = CoreError.otherError("The server response contains no data.")
             completion(Result.failure(error))
@@ -67,6 +77,7 @@ enum CoreAPIUrl: String {
             completion(Result.success(obj))
         } catch let error as DecodingError {
             var errorToReport = CoreError.otherError(error.localizedDescription)
+            print(errorToReport)
             #if DEV
                 switch error {
                 case .dataCorrupted(let context):

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="OPE-nA-Kum">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fvK-O6-kkK" customClass="HomeViewController" customModule="SpaceX" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s4W-xf-1ID">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="GaG-on-See">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UOa-OX-Vjf">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="AVJ-bK-BZy">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="9Vp-dM-vLI">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="298.5"/>
+                                                    </imageView>
+                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CiD-fB-gKh">
+                                                        <rect key="frame" x="0.0" y="298.5" width="414" height="597.5"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    </tableView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="CiD-fB-gKh" firstAttribute="height" secondItem="9Vp-dM-vLI" secondAttribute="height" multiplier="2" id="jEq-Dw-AJH"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="AVJ-bK-BZy" firstAttribute="leading" secondItem="UOa-OX-Vjf" secondAttribute="leading" id="5oq-BF-U20"/>
+                                            <constraint firstAttribute="bottom" secondItem="AVJ-bK-BZy" secondAttribute="bottom" id="alP-Ae-iHl"/>
+                                            <constraint firstItem="AVJ-bK-BZy" firstAttribute="top" secondItem="UOa-OX-Vjf" secondAttribute="top" id="fq6-oA-cfK"/>
+                                            <constraint firstAttribute="trailing" secondItem="AVJ-bK-BZy" secondAttribute="trailing" id="sdf-la-1XI"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="UOa-OX-Vjf" firstAttribute="bottom" secondItem="GaG-on-See" secondAttribute="bottom" id="9vl-OR-WfJ"/>
+                                    <constraint firstItem="UOa-OX-Vjf" firstAttribute="centerX" secondItem="GaG-on-See" secondAttribute="centerX" id="GJy-Ia-19Y"/>
+                                    <constraint firstItem="UOa-OX-Vjf" firstAttribute="bottom" secondItem="XYx-rx-XNP" secondAttribute="bottom" id="GWO-zm-FzD"/>
+                                    <constraint firstItem="UOa-OX-Vjf" firstAttribute="top" secondItem="GaG-on-See" secondAttribute="top" id="WTk-5S-7bX"/>
+                                    <constraint firstItem="UOa-OX-Vjf" firstAttribute="leading" secondItem="GaG-on-See" secondAttribute="leading" id="mkO-4K-pzS"/>
+                                    <constraint firstItem="UOa-OX-Vjf" firstAttribute="trailing" secondItem="GaG-on-See" secondAttribute="trailing" id="quj-IG-Q6W"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="N68-bV-VKK"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="XYx-rx-XNP"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GaG-on-See" firstAttribute="top" secondItem="s4W-xf-1ID" secondAttribute="top" id="HA8-Q6-UtQ"/>
+                            <constraint firstItem="GaG-on-See" firstAttribute="leading" secondItem="s4W-xf-1ID" secondAttribute="leading" id="Iax-xx-UZN"/>
+                            <constraint firstItem="GaG-on-See" firstAttribute="bottom" secondItem="s4W-xf-1ID" secondAttribute="bottom" id="PYc-1H-9yu"/>
+                            <constraint firstItem="GaG-on-See" firstAttribute="trailing" secondItem="s4W-xf-1ID" secondAttribute="trailing" id="Vax-zO-3eI" userLabel="trailing = Scroll View.trailing"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="q8l-B0-eFX"/>
+                    </view>
+                    <connections>
+                        <outlet property="nasaImageView" destination="9Vp-dM-vLI" id="dHu-Hp-5mA"/>
+                        <outlet property="tableView" destination="CiD-fB-gKh" id="p7x-vr-eet"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2zz-Jz-5cE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="1200" height="800"/>
+    </resources>
+</document>

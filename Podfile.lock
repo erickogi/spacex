@@ -2,6 +2,9 @@ PODS:
   - Alamofire (4.9.1)
   - AlamofireNetworkActivityLogger (2.4.0):
     - Alamofire (~> 4.8)
+  - Kingfisher (5.14.0):
+    - Kingfisher/Core (= 5.14.0)
+  - Kingfisher/Core (5.14.0)
   - SwiftMessages (4.1.4):
     - SwiftMessages/App (= 4.1.4)
   - SwiftMessages/App (4.1.4)
@@ -11,6 +14,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.5)
   - AlamofireNetworkActivityLogger (~> 2.0)
+  - Kingfisher (~> 5.0)
   - SwiftMessages (~> 4.0)
   - SwiftyAttributes
   - SwiftyJSON (= 4.2.0)
@@ -19,6 +23,7 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - AlamofireNetworkActivityLogger
+    - Kingfisher
     - SwiftMessages
     - SwiftyAttributes
     - SwiftyJSON
@@ -26,10 +31,11 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   AlamofireNetworkActivityLogger: 6d3398c692d2c5d83b0c58793537860aca1e383d
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
   SwiftMessages: 2c33fdee8b8f38dfc7e1036684456b505891da8c
   SwiftyAttributes: e3e13891ddac3c62b3d7798d5c3969cea88e62bb
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: d48c7b54cbb31728b66d506c4c8bdf72b92ad110
+PODFILE CHECKSUM: 08949ffab3434e4cb4fd7d1700e2725ce34af02b
 
 COCOAPODS: 1.9.1

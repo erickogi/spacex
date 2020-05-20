@@ -11,4 +11,5 @@ target 'SpaceX' do
  pod 'SwiftyAttributes'
  pod 'SwiftyJSON', '4.2.0'
  pod 'SwiftMessages', '~> 4.0'
+ pod 'Kingfisher', '~> 5.0'
 end

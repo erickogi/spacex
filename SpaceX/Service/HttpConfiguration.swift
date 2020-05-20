@@ -9,25 +9,16 @@
 import Foundation
 
 public enum HostUrl: String {
-    case develop = "https://mawingu.cbaloop.com/loop/sit/"
-    case uat = "https://mawingu.cbaloop.com/loop/uat/"
-    case production = "https://loop.co.ke/"
+    case production = "https://api.spacexdata.com/v3/"
+    case nasa = "https://api.nasa.gov/"
 }
 
 public class HttpConfiguration {
 
     public static let instance = HttpConfiguration()
 
-    #if SIT
-        // Available through the "Dev" scheme
-        public var host: HostUrl = .develop
-    #elseif UAT
-        // Available through the "Debug" scheme
-        public var host: HostUrl = .uat
-    #else
-        // Available through the "Release" scheme
         public var host: HostUrl = .production
-    #endif
+        public var nasa: HostUrl = .nasa
 
     
 
@@ -35,15 +26,21 @@ public class HttpConfiguration {
        // SessionManager.shared.cbaHost = host.rawValue
     }
 
-    //todo: check if needed, otherwise delete
-    private let apiPath = "v1"
-
+   
     func baseUrl() -> URL {
         return URL(string: "\(self.host.rawValue)")!
     }
 
+    func baseNasaUrl() -> URL {
+        return URL(string: "\(self.nasa.rawValue)")!
+    }
+    
     func apiUrl() -> URL {
         return baseUrl()
+    }
+    
+    func nasaUrl()->URL{
+        return baseNasaUrl()
     }
 
     func authHeaders(_ OTPCode: String? = nil) -> [String: String] {

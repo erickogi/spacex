@@ -34,10 +34,42 @@
 		842C91232472C1FD0036C163 /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C911B2472C1FC0036C163 /* DefaultButton.swift */; };
 		842C91242472C1FD0036C163 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C911C2472C1FC0036C163 /* BaseButton.swift */; };
 		842C91252472C1FD0036C163 /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C911D2472C1FD0036C163 /* ClearButton.swift */; };
+		843472F12473D90C0058CB08 /* BindableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843472F02473D90C0058CB08 /* BindableViewController.swift */; };
+		843472F42473D9550058CB08 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843472F22473D9550058CB08 /* Bindable.swift */; };
+		843472F52473D9550058CB08 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843472F32473D9550058CB08 /* ViewModel.swift */; };
+		843472F72473E0430058CB08 /* MasterWorkflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843472F62473E0420058CB08 /* MasterWorkflow.swift */; };
+		843472F92473FC7F0058CB08 /* Workflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843472F82473FC7F0058CB08 /* Workflow.swift */; };
+		843472FB2473FCC30058CB08 /* MainWorkflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843472FA2473FCC30058CB08 /* MainWorkflow.swift */; };
+		843472FD2473FDD80058CB08 /* UIStoryboard+Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843472FC2473FDD70058CB08 /* UIStoryboard+Main.swift */; };
+		843472FF2473FF0F0058CB08 /* UIStoryboard+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843472FE2473FF0F0058CB08 /* UIStoryboard+ViewController.swift */; };
+		84347308247407950058CB08 /* UINavigationController+ReplaceRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84347303247407940058CB08 /* UINavigationController+ReplaceRoot.swift */; };
+		84347309247407950058CB08 /* NavigationControllerRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84347304247407940058CB08 /* NavigationControllerRoot.swift */; };
+		8434730A247407950058CB08 /* CrossFadeAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84347305247407940058CB08 /* CrossFadeAnimationController.swift */; };
+		8434730B247407950058CB08 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84347306247407950058CB08 /* NavigationController.swift */; };
+		8434730C247407950058CB08 /* NavigationProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84347307247407950058CB08 /* NavigationProgressView.swift */; };
+		8434731124740BA40058CB08 /* HomeWorkflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434730E24740BA40058CB08 /* HomeWorkflow.swift */; };
+		8434731224740BA40058CB08 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434730F24740BA40058CB08 /* HomeViewModel.swift */; };
+		8434731324740BA40058CB08 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434731024740BA40058CB08 /* HomeViewController.swift */; };
+		84347318247411130058CB08 /* UIStoryboard+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84347317247411130058CB08 /* UIStoryboard+Home.swift */; };
+		8434731A2474116E0058CB08 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843473192474116D0058CB08 /* Home.storyboard */; };
+		8434731C2474187A0058CB08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8434731B2474187A0058CB08 /* Main.storyboard */; };
+		8434731F24742CC60058CB08 /* Vehicles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8434731E24742CC60058CB08 /* Vehicles.storyboard */; };
+		8434732124742D1B0058CB08 /* VehiclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434732024742D1B0058CB08 /* VehiclesViewController.swift */; };
+		8434732324742D710058CB08 /* UIStoryboard+Vehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434732224742D700058CB08 /* UIStoryboard+Vehicles.swift */; };
+		8434732524742DF20058CB08 /* VehiclesWorkflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434732424742DF10058CB08 /* VehiclesWorkflow.swift */; };
+		8434732724742EF90058CB08 /* VehiclesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434732624742EF90058CB08 /* VehiclesViewModel.swift */; };
+		8434732A247525C70058CB08 /* NasaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84347329247525C70058CB08 /* NasaService.swift */; };
+		8434732C2475263A0058CB08 /* NasaImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434732B2475263A0058CB08 /* NasaImage.swift */; };
+		84347332247543930058CB08 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434732F247543920058CB08 /* TableViewController.swift */; };
+		84347333247543930058CB08 /* TableCellDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84347330247543930058CB08 /* TableCellDescriptor.swift */; };
+		84347339247544C80058CB08 /* LaunchInfoTableViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84347336247544C80058CB08 /* LaunchInfoTableViewHandler.swift */; };
+		8434733C247558230058CB08 /* LaunchInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434733B247558220058CB08 /* LaunchInfo.swift */; };
+		8434734024755BF20058CB08 /* LaunchInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8434733F24755BF20058CB08 /* LaunchInfoCell.swift */; };
+		84347353247563310058CB08 /* PickerFieldItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84347352247563310058CB08 /* PickerFieldItem.swift */; };
+		8434735524759EA10058CB08 /* LaunchInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8434735424759EA10058CB08 /* LaunchInfoCell.xib */; };
 		84B2E22824726D0700165EEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2E22724726D0700165EEE /* AppDelegate.swift */; };
 		84B2E22A24726D0700165EEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2E22924726D0700165EEE /* SceneDelegate.swift */; };
-		84B2E22C24726D0700165EEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2E22B24726D0700165EEE /* ViewController.swift */; };
-		84B2E22F24726D0700165EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B2E22D24726D0700165EEE /* Main.storyboard */; };
+		84B2E22C24726D0700165EEE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2E22B24726D0700165EEE /* MainViewController.swift */; };
 		84B2E23124726D0F00165EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B2E23024726D0F00165EEE /* Assets.xcassets */; };
 		84B2E23424726D0F00165EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B2E23224726D0F00165EEE /* LaunchScreen.storyboard */; };
 		F5A0D4FBC9FBAB6BED06A591 /* Pods_SpaceX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6758DDD9E52263DE3D42B93 /* Pods_SpaceX.framework */; };
@@ -74,11 +106,43 @@
 		842C911B2472C1FC0036C163 /* DefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
 		842C911C2472C1FC0036C163 /* BaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
 		842C911D2472C1FD0036C163 /* ClearButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
+		843472F02473D90C0058CB08 /* BindableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableViewController.swift; sourceTree = "<group>"; };
+		843472F22473D9550058CB08 /* Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		843472F32473D9550058CB08 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		843472F62473E0420058CB08 /* MasterWorkflow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterWorkflow.swift; sourceTree = "<group>"; };
+		843472F82473FC7F0058CB08 /* Workflow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workflow.swift; sourceTree = "<group>"; };
+		843472FA2473FCC30058CB08 /* MainWorkflow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWorkflow.swift; sourceTree = "<group>"; };
+		843472FC2473FDD70058CB08 /* UIStoryboard+Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Main.swift"; sourceTree = "<group>"; };
+		843472FE2473FF0F0058CB08 /* UIStoryboard+ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+ViewController.swift"; sourceTree = "<group>"; };
+		84347303247407940058CB08 /* UINavigationController+ReplaceRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+ReplaceRoot.swift"; sourceTree = "<group>"; };
+		84347304247407940058CB08 /* NavigationControllerRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerRoot.swift; sourceTree = "<group>"; };
+		84347305247407940058CB08 /* CrossFadeAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossFadeAnimationController.swift; sourceTree = "<group>"; };
+		84347306247407950058CB08 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		84347307247407950058CB08 /* NavigationProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationProgressView.swift; sourceTree = "<group>"; };
+		8434730E24740BA40058CB08 /* HomeWorkflow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWorkflow.swift; sourceTree = "<group>"; };
+		8434730F24740BA40058CB08 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		8434731024740BA40058CB08 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		84347317247411130058CB08 /* UIStoryboard+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Home.swift"; sourceTree = "<group>"; };
+		843473192474116D0058CB08 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		8434731B2474187A0058CB08 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = SpaceX/GUI/main/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		8434731E24742CC60058CB08 /* Vehicles.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Vehicles.storyboard; sourceTree = "<group>"; };
+		8434732024742D1B0058CB08 /* VehiclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesViewController.swift; sourceTree = "<group>"; };
+		8434732224742D700058CB08 /* UIStoryboard+Vehicles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Vehicles.swift"; sourceTree = "<group>"; };
+		8434732424742DF10058CB08 /* VehiclesWorkflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesWorkflow.swift; sourceTree = "<group>"; };
+		8434732624742EF90058CB08 /* VehiclesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesViewModel.swift; sourceTree = "<group>"; };
+		84347329247525C70058CB08 /* NasaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaService.swift; sourceTree = "<group>"; };
+		8434732B2475263A0058CB08 /* NasaImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaImage.swift; sourceTree = "<group>"; };
+		8434732F247543920058CB08 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		84347330247543930058CB08 /* TableCellDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCellDescriptor.swift; sourceTree = "<group>"; };
+		84347336247544C80058CB08 /* LaunchInfoTableViewHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchInfoTableViewHandler.swift; sourceTree = "<group>"; };
+		8434733B247558220058CB08 /* LaunchInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchInfo.swift; sourceTree = "<group>"; };
+		8434733F24755BF20058CB08 /* LaunchInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchInfoCell.swift; sourceTree = "<group>"; };
+		84347352247563310058CB08 /* PickerFieldItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerFieldItem.swift; sourceTree = "<group>"; };
+		8434735424759EA10058CB08 /* LaunchInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchInfoCell.xib; sourceTree = "<group>"; };
 		84B2E22424726D0700165EEE /* SpaceX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B2E22724726D0700165EEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B2E22924726D0700165EEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84B2E22B24726D0700165EEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84B2E22E24726D0700165EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B2E22B24726D0700165EEE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		84B2E23024726D0F00165EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B2E23324726D0F00165EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B2E23524726D0F00165EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,6 +165,7 @@
 		842C90E224728FDD0036C163 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				84347328247525A20058CB08 /* NasaService */,
 				842C90FA2472B1800036C163 /* LaunchService */,
 				842C90F3247292410036C163 /* CoreError.swift */,
 				842C90ED247290C60036C163 /* SpaceXDate.swift */,
@@ -111,7 +176,6 @@
 				842C90E424728FF60036C163 /* SpaceXResponse.swift */,
 				842C90E324728FF60036C163 /* SpaceXService.h */,
 				842C90E524728FF60036C163 /* Result.swift */,
-				842C90FD2472B61C0036C163 /* MainViewModel.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -120,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				842C90F82472ACF80036C163 /* Next.swift */,
+				8434732B2475263A0058CB08 /* NasaImage.swift */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
@@ -157,6 +222,13 @@
 		842C91152472C1EA0036C163 /* CommonViews */ = {
 			isa = PBXGroup;
 			children = (
+				8434731424740CA90058CB08 /* controller */,
+				84347302247407800058CB08 /* Navigation */,
+				843472FE2473FF0F0058CB08 /* UIStoryboard+ViewController.swift */,
+				843472F82473FC7F0058CB08 /* Workflow.swift */,
+				843472F22473D9550058CB08 /* Bindable.swift */,
+				843472F32473D9550058CB08 /* ViewModel.swift */,
+				843472F02473D90C0058CB08 /* BindableViewController.swift */,
 				842C91192472C1FC0036C163 /* AlertMessageButton.swift */,
 				842C911C2472C1FC0036C163 /* BaseButton.swift */,
 				842C911D2472C1FD0036C163 /* ClearButton.swift */,
@@ -167,6 +239,103 @@
 				842C91182472C1FB0036C163 /* PositiveButton.swift */,
 			);
 			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		84347300247405510058CB08 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				843472F62473E0420058CB08 /* MasterWorkflow.swift */,
+				8434731D24742C8C0058CB08 /* vehicles */,
+				8434730D24740AB60058CB08 /* home */,
+				843473012474056E0058CB08 /* main */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		843473012474056E0058CB08 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				8434731B2474187A0058CB08 /* Main.storyboard */,
+				843472FA2473FCC30058CB08 /* MainWorkflow.swift */,
+				843472FC2473FDD70058CB08 /* UIStoryboard+Main.swift */,
+				842C90FD2472B61C0036C163 /* MainViewModel.swift */,
+				84B2E22B24726D0700165EEE /* MainViewController.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		84347302247407800058CB08 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				84347305247407940058CB08 /* CrossFadeAnimationController.swift */,
+				84347306247407950058CB08 /* NavigationController.swift */,
+				84347304247407940058CB08 /* NavigationControllerRoot.swift */,
+				84347307247407950058CB08 /* NavigationProgressView.swift */,
+				84347303247407940058CB08 /* UINavigationController+ReplaceRoot.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		8434730D24740AB60058CB08 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				84347334247544B10058CB08 /* Tableview */,
+				8434731024740BA40058CB08 /* HomeViewController.swift */,
+				8434730F24740BA40058CB08 /* HomeViewModel.swift */,
+				8434730E24740BA40058CB08 /* HomeWorkflow.swift */,
+				84347317247411130058CB08 /* UIStoryboard+Home.swift */,
+				843473192474116D0058CB08 /* Home.storyboard */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		8434731424740CA90058CB08 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				8434732D2475437B0058CB08 /* Tableview */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		8434731D24742C8C0058CB08 /* vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				8434731E24742CC60058CB08 /* Vehicles.storyboard */,
+				8434732024742D1B0058CB08 /* VehiclesViewController.swift */,
+				8434732224742D700058CB08 /* UIStoryboard+Vehicles.swift */,
+				8434732424742DF10058CB08 /* VehiclesWorkflow.swift */,
+				8434732624742EF90058CB08 /* VehiclesViewModel.swift */,
+			);
+			path = vehicles;
+			sourceTree = "<group>";
+		};
+		84347328247525A20058CB08 /* NasaService */ = {
+			isa = PBXGroup;
+			children = (
+				84347329247525C70058CB08 /* NasaService.swift */,
+			);
+			path = NasaService;
+			sourceTree = "<group>";
+		};
+		8434732D2475437B0058CB08 /* Tableview */ = {
+			isa = PBXGroup;
+			children = (
+				84347330247543930058CB08 /* TableCellDescriptor.swift */,
+				8434732F247543920058CB08 /* TableViewController.swift */,
+			);
+			path = Tableview;
+			sourceTree = "<group>";
+		};
+		84347334247544B10058CB08 /* Tableview */ = {
+			isa = PBXGroup;
+			children = (
+				84347352247563310058CB08 /* PickerFieldItem.swift */,
+				84347336247544C80058CB08 /* LaunchInfoTableViewHandler.swift */,
+				8434733B247558220058CB08 /* LaunchInfo.swift */,
+				8434733F24755BF20058CB08 /* LaunchInfoCell.swift */,
+				8434735424759EA10058CB08 /* LaunchInfoCell.xib */,
+			);
+			path = Tableview;
 			sourceTree = "<group>";
 		};
 		84B2E21B24726D0700165EEE = {
@@ -190,6 +359,7 @@
 		84B2E22624726D0700165EEE /* SpaceX */ = {
 			isa = PBXGroup;
 			children = (
+				84347300247405510058CB08 /* GUI */,
 				842C91152472C1EA0036C163 /* CommonViews */,
 				842C91082472C0240036C163 /* Extensions */,
 				842C91012472BCB10036C163 /* CustomAlertView */,
@@ -198,8 +368,6 @@
 				842C90E224728FDD0036C163 /* Service */,
 				84B2E22724726D0700165EEE /* AppDelegate.swift */,
 				84B2E22924726D0700165EEE /* SceneDelegate.swift */,
-				84B2E22B24726D0700165EEE /* ViewController.swift */,
-				84B2E22D24726D0700165EEE /* Main.storyboard */,
 				84B2E23024726D0F00165EEE /* Assets.xcassets */,
 				84B2E23224726D0F00165EEE /* LaunchScreen.storyboard */,
 				84B2E23524726D0F00165EEE /* Info.plist */,
@@ -285,9 +453,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B2E23424726D0F00165EEE /* LaunchScreen.storyboard in Resources */,
+				8434731F24742CC60058CB08 /* Vehicles.storyboard in Resources */,
+				8434731C2474187A0058CB08 /* Main.storyboard in Resources */,
+				8434731A2474116E0058CB08 /* Home.storyboard in Resources */,
 				84B2E23124726D0F00165EEE /* Assets.xcassets in Resources */,
 				842C91042472BCD40036C163 /* CustomAlertView.xib in Resources */,
-				84B2E22F24726D0700165EEE /* Main.storyboard in Resources */,
+				8434735524759EA10058CB08 /* LaunchInfoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,32 +511,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84347308247407950058CB08 /* UINavigationController+ReplaceRoot.swift in Sources */,
 				842C91052472BCD40036C163 /* CustomAlertView.swift in Sources */,
+				8434730B247407950058CB08 /* NavigationController.swift in Sources */,
+				84347318247411130058CB08 /* UIStoryboard+Home.swift in Sources */,
+				843472FF2473FF0F0058CB08 /* UIStoryboard+ViewController.swift in Sources */,
 				842C90F92472ACF80036C163 /* Next.swift in Sources */,
+				8434731324740BA40058CB08 /* HomeViewController.swift in Sources */,
+				8434732524742DF20058CB08 /* VehiclesWorkflow.swift in Sources */,
 				842C91072472BD470036C163 /* LoadingStateDisplayer.swift in Sources */,
 				842C90F1247290C60036C163 /* SpaceXDate.swift in Sources */,
 				842C91232472C1FD0036C163 /* DefaultButton.swift in Sources */,
+				843472FD2473FDD80058CB08 /* UIStoryboard+Main.swift in Sources */,
+				8434732324742D710058CB08 /* UIStoryboard+Vehicles.swift in Sources */,
+				8434734024755BF20058CB08 /* LaunchInfoCell.swift in Sources */,
+				843472F12473D90C0058CB08 /* BindableViewController.swift in Sources */,
 				842C910A2472C0360036C163 /* UIView+xib.swift in Sources */,
 				842C90FC2472B1A30036C163 /* LaunchService.swift in Sources */,
-				84B2E22C24726D0700165EEE /* ViewController.swift in Sources */,
+				8434732C2475263A0058CB08 /* NasaImage.swift in Sources */,
+				84B2E22C24726D0700165EEE /* MainViewController.swift in Sources */,
+				8434733C247558230058CB08 /* LaunchInfo.swift in Sources */,
 				842C90F4247292410036C163 /* CoreError.swift in Sources */,
 				842C90FE2472B61C0036C163 /* MainViewModel.swift in Sources */,
+				84347333247543930058CB08 /* TableCellDescriptor.swift in Sources */,
+				84347309247407950058CB08 /* NavigationControllerRoot.swift in Sources */,
 				842C91242472C1FD0036C163 /* BaseButton.swift in Sources */,
+				843472F42473D9550058CB08 /* Bindable.swift in Sources */,
 				842C91132472C1420036C163 /* UIView+AutoLayout.swift in Sources */,
+				84347332247543930058CB08 /* TableViewController.swift in Sources */,
+				8434730C247407950058CB08 /* NavigationProgressView.swift in Sources */,
 				842C90E924728FF70036C163 /* Result.swift in Sources */,
 				842C90EA24728FF70036C163 /* HttpConfiguration.swift in Sources */,
+				843472F92473FC7F0058CB08 /* Workflow.swift in Sources */,
+				8434731224740BA40058CB08 /* HomeViewModel.swift in Sources */,
 				842C91252472C1FD0036C163 /* ClearButton.swift in Sources */,
+				84347339247544C80058CB08 /* LaunchInfoTableViewHandler.swift in Sources */,
+				8434732724742EF90058CB08 /* VehiclesViewModel.swift in Sources */,
+				8434732A247525C70058CB08 /* NasaService.swift in Sources */,
+				843472F72473E0430058CB08 /* MasterWorkflow.swift in Sources */,
+				8434730A247407950058CB08 /* CrossFadeAnimationController.swift in Sources */,
 				842C91112472C1420036C163 /* UILabel+LineHeight.swift in Sources */,
 				842C91222472C1FD0036C163 /* NeutralButton.swift in Sources */,
+				84347353247563310058CB08 /* PickerFieldItem.swift in Sources */,
 				84B2E22824726D0700165EEE /* AppDelegate.swift in Sources */,
 				842C91212472C1FD0036C163 /* AlertMessageButton.swift in Sources */,
 				842C90E824728FF70036C163 /* SpaceXResponse.swift in Sources */,
+				843472F52473D9550058CB08 /* ViewModel.swift in Sources */,
 				842C91002472BC6C0036C163 /* ViewControllerModel.swift in Sources */,
+				843472FB2473FCC30058CB08 /* MainWorkflow.swift in Sources */,
 				84B2E22A24726D0700165EEE /* SceneDelegate.swift in Sources */,
 				842C911F2472C1FD0036C163 /* PillButton.swift in Sources */,
+				8434731124740BA40058CB08 /* HomeWorkflow.swift in Sources */,
 				842C91102472C1420036C163 /* UIStackView+Spacer.swift in Sources */,
 				842C911E2472C1FD0036C163 /* NegativeButton.swift in Sources */,
 				842C90F0247290C60036C163 /* SpaceXNumber.swift in Sources */,
+				8434732124742D1B0058CB08 /* VehiclesViewController.swift in Sources */,
 				842C91142472C1420036C163 /* UILabel+Style.swift in Sources */,
 				842C91202472C1FD0036C163 /* PositiveButton.swift in Sources */,
 				842C90EB24728FF70036C163 /* CoreAPIUrl.swift in Sources */,
@@ -375,14 +575,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84B2E22D24726D0700165EEE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84B2E22E24726D0700165EEE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84B2E23224726D0F00165EEE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -516,6 +708,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J59TW3XHCD;
 				INFOPLIST_FILE = SpaceX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -535,6 +728,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J59TW3XHCD;
 				INFOPLIST_FILE = SpaceX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
